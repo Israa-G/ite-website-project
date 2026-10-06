@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: linear-gradient( #020617 , #0a133a , #0f172a );
+  color: #e5e7eb;
+}
+
+.calc-title {
+  text-align: center;
+  margin: 24px ;
+  font-size: 24px;
+}
+
+.calc-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.calc-outer {
+  background: #020617;
+  border-radius: 20px;
+  box-shadow: 0 18px 40px rgba(20, 31, 58, 0.85);
+  overflow: hidden;
+}
+
+.calc-inner {
+  border-collapse: collapse;
+  width: 320px;
+  background: #020617;
+}
+
+.calc-inner td {
+  width: 64px;
+  height: 52px;
+  text-align: center;
+  font-size: 20px;
+  color: #f9fafb;
+  border: 1px solid #111827;
+  background: #111827;
+}
+
+.calc-screen-row td {
+  background-image: url("glitch.gif");
+  background-size: cover;
+  height: 60px;
+}
+
+.calc-screen {
+  border-bottom: 2px solid #0f172a;
+}

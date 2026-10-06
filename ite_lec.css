@@ -1,0 +1,27 @@
+.lec-body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.lec-title {
+  text-align: center;
+  margin: 24px 0 16px;
+  font-size: 24px;
+}
+
+.lec-video-wrapper {
+  max-width: 720px;
+  margin: 0 auto 24px;
+  padding: 12px;
+  border-radius: 18px;
+  background: #020617;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.9);
+}
+
+.lec-video-wrapper iframe {
+  width: 100%;
+  height: 405px;
+  border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+.hd-body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #0f172a;
+  color:#e5e7eb;
+}
+
+
+.hd-top {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.hd-logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 999px;
+  background: #f97316;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.hd-title {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+}
+
+.hd-subtitle {
+  font-size: 11px;
+  opacity: 0.85;
+  margin-left: 42px;
+}
+
+/* FOOTER */
+.ft-body{
+  background-color:white;
+}
